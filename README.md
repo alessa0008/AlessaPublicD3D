@@ -3,8 +3,7 @@
 ![screenshot](https://github.com/alessa0008/AlessaPublicD3D/blob/master/alessapublic.png)
 
 ## Getting Started
-Free Source AlessaPublic Esp For Weapon . This hack will work with future updates. 
-Based [DrNSeven](https://github.com/DrNseven)
+Free Source AlessaPublic Esp For Weapon . This hack will work with future updates.
 
 ### Fitures
 * Wallhack
