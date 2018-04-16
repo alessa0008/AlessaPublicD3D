@@ -13,7 +13,7 @@ Based [DrNSeven](https://github.com/DrNseven)
 * Aim Assist ( Smooth Aimbot )
 
 ### Release
-* [Download AlessaPublic](http://www.mediafire.com/file/7cd3tv5vxsbnf7x/AlessaPublic.rar) (STATUS : UNDETECTED)
+* [Download AlessaPublic](https://bit.ly/2H6X2YT) (STATUS : UNDETECTED)
 
 =========================================================================
 
