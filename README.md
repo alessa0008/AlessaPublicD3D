@@ -12,8 +12,8 @@ Free Source AlessaPublic Esp For Weapon . This hack will work with future update
 * Aim Assist ( Smooth Aimbot )
 
 ### Release
-* [Download AlessaPublic](https://bit.ly/2H6X2YT) (STATUS : OUTDATED) // 17-04-2018
-* [Download AlessaPublic](https://bit.ly/2HMKnrn) (STATUS : UNDETECTED) // 20-04-2018
+* [Download 17-04-2018](https://bit.ly/2H6X2YT) (STATUS : OUTDATED)  
+* [Download 20-04-2018](https://bit.ly/2HMKnrn) (STATUS : UNDETECTED) 
 
 =========================================================================
 
