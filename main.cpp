@@ -76,8 +76,8 @@ HRESULT APIENTRY SetTexture_hook(LPDIRECT3DDEVICE9 pDevice, DWORD Sampler, IDire
 	if (wallhack>0)
 	{
 		pDevice->SetRenderState(D3DRS_DEPTHBIAS, 0);
-		if ((vSize == 2300 || vSize == 900 ||
-			vSize == 1952 || vSize == 640) || (Stride == 36 && vSize == 1436) || (Stride == 48 && vSize == 1436))
+		if ((vSize == 2356 || vSize == 900 ||
+			vSize == 2008 || vSize == 640) || (Stride == 36 && vSize == 1436) || (Stride == 48 && vSize == 1436))
 		{
 			if (wallhack == 2 && vSize != 1436)
 			{
@@ -95,7 +95,7 @@ HRESULT APIENTRY SetTexture_hook(LPDIRECT3DDEVICE9 pDevice, DWORD Sampler, IDire
 
 	if (aimbot == 1 || esp > 0)
 	{
-		if ((Stride == 48 && vSize > 1328) || (vSize == 2300 || vSize == 1952 || vSize == 1552))//1040crap,1328crap
+		if ((Stride == 48 && vSize > 1328) || (vSize == 2356 || vSize == 2008 || vSize == 1552))
 			AddWeapons(pDevice);
 	}
 		
@@ -161,11 +161,11 @@ HRESULT APIENTRY Present_hook(IDirect3DDevice9* pDevice, const RECT *pSourceRect
 	{
 		for (unsigned int i = 0; i < WeaponEspInfo.size(); i++)
 		{
-			if (WeaponEspInfo[i].pOutX > 1.0f && WeaponEspInfo[i].pOutY > 1.0f && (float)WeaponEspInfo[i].RealDistance > 4.0f)//&& (float)WeaponEspInfo[i].vSizeod == 1952)//long range weapon
-				DrawLine(pDevice, (int)WeaponEspInfo[i].pOutX, (int)WeaponEspInfo[i].pOutY, ScreenCX, ScreenCY * ((float)esp * 0.2f), 20, D3DCOLOR_ARGB(255, 255, 255, 255), 1);//0.1up, 1.0middle, 2.0down
+			if (WeaponEspInfo[i].pOutX > 1.0f && WeaponEspInfo[i].pOutY > 1.0f && (float)WeaponEspInfo[i].RealDistance > 4.0f)
+				DrawLine(pDevice, (int)WeaponEspInfo[i].pOutX, (int)WeaponEspInfo[i].pOutY, ScreenCX, ScreenCY * ((float)esp * 0.2f), 20, D3DCOLOR_ARGB(255, 255, 255, 255), 1);
 			else
-				if (WeaponEspInfo[i].pOutX > 1.0f && WeaponEspInfo[i].pOutY > 1.0f && (float)WeaponEspInfo[i].RealDistance > 4.0f && (float)WeaponEspInfo[i].vSizeod != 1952)//short/mid range weapon
-					DrawLine(pDevice, (int)WeaponEspInfo[i].pOutX, (int)WeaponEspInfo[i].pOutY, ScreenCX, ScreenCY * ((float)esp * 0.2f), 20, D3DCOLOR_ARGB(255, 0, 255, 0), 1);//0.1up, 1.0middle, 2.0down
+				if (WeaponEspInfo[i].pOutX > 1.0f && WeaponEspInfo[i].pOutY > 1.0f && (float)WeaponEspInfo[i].RealDistance > 4.0f && (float)WeaponEspInfo[i].vSizeod != 2008)
+					DrawLine(pDevice, (int)WeaponEspInfo[i].pOutX, (int)WeaponEspInfo[i].pOutY, ScreenCX, ScreenCY * ((float)esp * 0.2f), 20, D3DCOLOR_ARGB(255, 0, 255, 0), 1);
 		}
 	}
 
